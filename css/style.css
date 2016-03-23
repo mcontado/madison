@@ -3,10 +3,23 @@ body {
 }
 
 header {
+	margin-top: 2em;
+	margin-right: 1em;
+	margin-bottom: 9em;
+}
+
+header img {
 	float: right;
-	margin-top: 3em;
 }
 
 .container-fluid {
-	max-width: 70em;
+	max-width: 71.8em;
+}
+
+section {
+	clear: both;
+}
+
+.slider {
+	display: inline-block;
 }
