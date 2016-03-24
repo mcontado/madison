@@ -1,5 +1,6 @@
 body {
-	background-color: black;
+	background-color: #1d1d1d;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 header {
@@ -20,6 +21,39 @@ section {
 	clear: both;
 }
 
+.wrapper {
+	margin-bottom: 1.5em;
+}
+
 .slider {
 	display: inline-block;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin-left: -1.2em;
+	margin-bottom: -10em;
+	font-size: 1.5em;
+}
+
+li {
+	margin-bottom: -0.2em;
+}
+
+.bottom-logo {
+	float: right;
+}
+
+.nav-stacked {
+	float: left;
 }
