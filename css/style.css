@@ -57,3 +57,7 @@ li {
 .nav-stacked {
 	float: left;
 }
+
+img {
+    margin: -1px;
+}
