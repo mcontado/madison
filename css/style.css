@@ -3,26 +3,22 @@ body {
 	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
-header {
-	margin-top: 2em;
-	margin-right: 1em;
-	margin-bottom: 9em;
-}
-
 header img {
 	float: right;
+	margin: 20px 16px 26px 0;
 }
 
-.container-fluid {
-	max-width: 71.8em;
-}
-
-section {
-	clear: both;
+.shell {
+	margin: 0 auto;
+    position: relative;
+    text-align: left;
+    width: 963px; /*this fixed pic spacing*/
 }
 
 .wrapper {
-	margin-bottom: 1.5em;
+	clear: both;
+    margin-bottom: 20px;
+    min-height: 312px;
 }
 
 .slider1, .slider2, .slider3, .slider4 {
@@ -56,4 +52,13 @@ li {
 
 .nav-stacked {
 	float: left;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navigation {
+	display: table-footer-group;
 }
