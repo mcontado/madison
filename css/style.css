@@ -17,12 +17,19 @@ header img {
 
 .wrapper {
 	clear: both;
-    margin-bottom: 20px;
-    min-height: 312px;
 }
 
-.slider1, .slider2, .slider3, .slider4 {
-	display: inline-block;
+.slide {
+	float: left;
+    height: 335px;
+    margin-right: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+
+.slider4 {
+	margin-right: 0;
 }
 
 a {
@@ -37,21 +44,15 @@ a:hover {
 
 ul {
 	list-style: none;
-	/*margin-left: -1.2em;
-	margin-bottom: -10em;*/
 	font-size: 1.5em;
 }
 
 li {
-	/*margin-bottom: -0.2em;*/
+	margin-bottom: -0.2em;
 }
 
-.bottom-logo {
+a img {
 	float: right;
-}
-
-.nav-stacked {
-	/*float: left;*/
 }
 
 .container-fluid {
@@ -60,11 +61,6 @@ li {
 }
 
 .navigation {
-	/*display: table-footer-group;*/
+	clear: both;
 }
 
-.row {
-	margin-right: 0;
-	margin-left: 0;
-	display: block;
-}
