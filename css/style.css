@@ -10,8 +10,8 @@ header img {
 
 .shell {
 	margin: 0 auto;
-    position: relative;
-    text-align: left;
+    /*position: relative;*/
+    /*text-align: left;*/
     width: 963px; /*this fixed pic spacing*/
 }
 
@@ -37,13 +37,13 @@ a:hover {
 
 ul {
 	list-style: none;
-	margin-left: -1.2em;
-	margin-bottom: -10em;
+	/*margin-left: -1.2em;
+	margin-bottom: -10em;*/
 	font-size: 1.5em;
 }
 
 li {
-	margin-bottom: -0.2em;
+	/*margin-bottom: -0.2em;*/
 }
 
 .bottom-logo {
@@ -51,7 +51,7 @@ li {
 }
 
 .nav-stacked {
-	float: left;
+	/*float: left;*/
 }
 
 .container-fluid {
@@ -60,5 +60,11 @@ li {
 }
 
 .navigation {
-	display: table-footer-group;
+	/*display: table-footer-group;*/
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+	display: block;
 }
