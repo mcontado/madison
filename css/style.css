@@ -64,3 +64,21 @@ a img {
 	clear: both;
 }
 
+footer {
+	clear: both;
+	margin-left: 3em;
+}
+
+p {
+	font-size: 1.5em;
+    line-height: 1.6em;
+    color: #b5b5b5;
+}
+
+nav {
+	float: left;
+}
+
+.row {
+	margin: 0 auto;
+}
