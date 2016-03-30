@@ -1,9 +1,6 @@
 $(document).ready(function(){
 
-	$(".slider1 > img").fadeOut(0);
-	$(".slider2 > img").fadeOut(0);
-	$(".slider3 > img").fadeOut(0);
-	$(".slider4 > img").fadeOut(0);
+	$(".slide > img").fadeOut(0);
 
 
 	// $("#01").fadeIn(0);
@@ -12,12 +9,12 @@ $(document).ready(function(){
 	// $("#31").fadeIn(0);
 
 	$('.slider2, .slider4').cycle({
-          timeout: 8000,
+          timeout: 80000,
         });
 
 	$('.slider1, .slider3').cycle({
-            delay: 2000,
-            timeout: 8000,
+            delay: 20000,
+            timeout: 80000,
           });
 
 	// setTimeout(function()
