@@ -12,7 +12,7 @@ header img {
 	margin: 0 auto;
     /*position: relative;*/
     /*text-align: left;*/
-    width: 963px; /*this fixed pic spacing*/
+    /*width: 963px; this fixed pic spacing*/
 }
 
 .wrapper {
@@ -21,11 +21,11 @@ header img {
 
 .slide {
 	float: left;
-    height: 335px;
+    min-height: 230px;
     margin-right: 1px;
     overflow: hidden;
     position: relative;
-    width: 240px;
+    min-width: 120px;
 }
 
 .slider4 {
@@ -55,10 +55,10 @@ a img {
 	float: right;
 }
 
-.container-fluid {
+/*.container-fluid {
 	padding-left: 0;
 	padding-right: 0;
-}
+}*/
 
 .navigation {
 	clear: both;
@@ -79,6 +79,6 @@ nav {
 	float: left;
 }
 
-.row {
+/*.row {
 	margin: 0 auto;
-}
+}*/
