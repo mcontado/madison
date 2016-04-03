@@ -17,6 +17,7 @@ header img {
 
 .wrapper {
 	clear: both;
+	width: 100%;
 }
 
 .slide {
@@ -25,7 +26,7 @@ header img {
     margin-right: 1px;
     overflow: hidden;
     position: relative;
-    width: 240px;
+    width: 24.9%;
 }
 
 .slider4 {
@@ -81,4 +82,25 @@ nav {
 
 .row {
 	margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.slide {
+	    width: 24.9%;
+	}
+
+	.slide img {
+	    /*max-width: 100%;*/
+	}
+
+	.shell {
+		width: 77%;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	header img {
+	float: left;
+	margin-left: 3em;
+	}
 }

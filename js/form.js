@@ -9,12 +9,12 @@ $(document).ready(function(){
 	// $("#31").fadeIn(0);
 
 	$('.slider2, .slider4').cycle({
-          timeout: 80000,
+          timeout: 8000,
         });
 
 	$('.slider1, .slider3').cycle({
-            delay: 20000,
-            timeout: 80000,
+            delay: 2000,
+            timeout: 8000,
           });
 
 	// setTimeout(function()
