@@ -1,9 +1,6 @@
 $(document).ready(function(){
 
-	$(".slider1 > img").fadeOut(0);
-	$(".slider2 > img").fadeOut(0);
-	$(".slider3 > img").fadeOut(0);
-	$(".slider4 > img").fadeOut(0);
+	$(".slide > img").fadeOut(0);
 
 
 	// $("#01").fadeIn(0);

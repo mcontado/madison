@@ -17,15 +17,15 @@ header img {
 
 .wrapper {
 	clear: both;
+	width: 100%;
 }
 
 .slide {
 	float: left;
-    height: 335px;
     margin-right: 1px;
     overflow: hidden;
     position: relative;
-    width: 240px;
+    width: 24.9%;
 }
 
 .slider4 {
@@ -77,8 +77,30 @@ p {
 
 nav {
 	float: left;
+	margin-top: 1em;
 }
 
 .row {
 	margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.shell {
+		width: 100%;
+	}
+
+	.wrapper {
+		clear: both;
+		width: 100%;
+		height: auto;
+	}
+
+
+}
+
+@media only screen and (max-width:767px) {
+	header img {
+	float: left;
+	margin-left: 3em;
+	}
 }
