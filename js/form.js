@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$(".slide > img").fadeOut(0);
 
-
+	console.log("here");
 	// $("#01").fadeIn(0);
 	// $("#11").fadeIn(0);
 	// $("#21").fadeIn(0);
